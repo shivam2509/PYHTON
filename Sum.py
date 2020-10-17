@@ -14,3 +14,4 @@ for comment in jsonobject["comments"]:
     totalnumber=totalnumber+1
 print("Count:",totalnumber)
 print("Sum:",sum)
+//commit
