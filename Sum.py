@@ -9,7 +9,7 @@ jsonobject=json.loads(data)
 
 sum=0
 totalnumber=0
-for comment in jsonobject["comments"]:
+for comment in jsonobject["comments"]:  //participating in hacktoberfest 2020
     sum=sum+int(comment["count"])
     totalnumber=totalnumber+1
 print("Count:",totalnumber)
